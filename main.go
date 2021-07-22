@@ -83,7 +83,6 @@ func main() {
 		HealthProbeBindAddress: config.ProbeAddr,
 		LeaderElection:         config.EnableLeaderElection,
 		LeaderElectionID:       "06d035fb.mongodb.com",
-		Namespace:              "",
 		SyncPeriod:             &syncPeriod,
 	})
 	if err != nil {
